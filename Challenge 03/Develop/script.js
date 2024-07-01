@@ -14,7 +14,7 @@ let salary = prompt("Salary");
 const employee = {
 firstName: firstName,
 lastName: lastName,
-salary: parseFloat(salary)}
+salary: Number(salary)}
 employeesArray.push(employee);
 InfoEntry = confirm("Do you want to add another employee?");}
 return employeesArray;};

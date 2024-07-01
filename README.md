@@ -3,26 +3,28 @@
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
+This page includes an application that enables a payroll manager to view and manage employee payroll data.
 
 
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+![alt text](./Challenge%2003/Assets/Cha-3.png)
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative file path, add it to your README using the following syntax:
-
-![alt text](assets/images/screenshot.png)
+To use the page the user presses the Add Employee button then enters in the names, and salary for each employee.
+Once all of the employees have been entered the user must then choose the cancel button when they are prompted to add another employee and this will populate the list of employees.
 
 
 ## License
 
 MIT
+
+## Credits
+
+ TA Mary Elanius:
+
+const getRandomEmployee = function(employeesArray) {
+const Rando = employeesArray[Math.floor(Math.random()*employeesArray.length)];
+console.log(`Congratulations to ${Rando.firstName} ${Rando.lastName}, our random drawing winner!!!!`)}
 
 
